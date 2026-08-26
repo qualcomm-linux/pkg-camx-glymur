@@ -1,8 +1,8 @@
-camx-glymur (1.0.34-0qli2) UNRELEASED; urgency=medium
+camx-glymur (1.0.39-0qli1~) UNRELEASED; urgency=medium
 
-  * Unreleased changes
+  * New upstream release
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Mon, 17 Aug 2026 13:16:22 +0200
+ -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Wed, 26 Aug 2026 08:04:33 +0000
 
 camx-glymur (1.0.34-0qli1) unstable; urgency=medium
 
