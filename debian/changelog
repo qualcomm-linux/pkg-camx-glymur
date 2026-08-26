@@ -1,3 +1,9 @@
+camx-glymur (1.0.39-0qli1~bpo13+1~) UNRELEASED; urgency=medium
+
+  * Rebuild for trixie.
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 26 Aug 2026 16:05:27 +0200
+
 camx-glymur (1.0.39-0qli1) unstable; urgency=medium
 
   [ Qualcomm Camera Team ]
