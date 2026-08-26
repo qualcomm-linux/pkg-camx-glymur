@@ -1,8 +1,12 @@
-camx-glymur (1.0.34-0qli1~bpo13+2~) UNRELEASED; urgency=medium
+camx-glymur (1.0.39-0qli1) unstable; urgency=medium
 
-  * Unreleased changes
+  [ Qualcomm Camera Team ]
+  * New upstream release
 
- -- Debusine Action Bot <noreply@bot.invalid>  Tue, 18 Aug 2026 14:37:53 +0000
+  [ Agathe Porte ]
+  * lintian: remove now fixed hardening-no-bindnow override
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 26 Aug 2026 16:03:43 +0200
 
 camx-glymur (1.0.34-0qli1~bpo13+1) trixie; urgency=medium
 
