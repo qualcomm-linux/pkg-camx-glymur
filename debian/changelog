@@ -1,11 +1,12 @@
 camx-glymur (1.0.46-0qli1~) UNRELEASED; urgency=medium
 
+  [ Kumar Abhinav ]
   * New upstream release
   * Add dependency on sensing-hub for several enabled features.
   * IMX688 and IMX577 tuning fixes
 
 
- -- Kumar Abhinav <kabhinav@qti.qualcomm.com>  Sat, 12 Aug 2026 11:14:30 +0200
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 15 Sep 2026 13:54:28 +0200
 
 camx-glymur (1.0.39-0qli1) unstable; urgency=medium
 
