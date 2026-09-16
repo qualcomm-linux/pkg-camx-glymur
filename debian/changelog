@@ -4,9 +4,12 @@ camx-glymur (1.0.46-0qli1~) UNRELEASED; urgency=medium
   * New upstream release
   * Add dependency on sensing-hub for several enabled features.
   * IMX688 and IMX577 tuning fixes
+  * Do not strip DSP skel files libhme_dsp_skel.so and
+    libbitml_nsp_73nb_skel.so
+  * Install Glymur hexagon-dsp/glymur/Qualcomm/Glymur-CRD/dsp/cdsp/*.so files
+  * Install Glymur camx/networks/glymur/*.bin files
 
-
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Tue, 15 Sep 2026 13:54:28 +0200
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 16 Sep 2026 11:13:41 +0200
 
 camx-glymur (1.0.39-0qli1) unstable; urgency=medium
 
