@@ -1,8 +1,9 @@
-camx-glymur (1.0.46-0qli1~bpo13+1~) UNRELEASED; urgency=medium
+camx-glymur (1.0.46-0qli1~bpo13+1) trixie; urgency=medium
 
+  [ Agathe Porte ]
   * Rebuild for trixie.
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 16 Sep 2026 11:54:47 +0200
+ -- Debusine Action Bot <noreply@bot.invalid>  Wed, 16 Sep 2026 09:56:11 +0000
 
 camx-glymur (1.0.46-0qli1) unstable; urgency=medium
 
