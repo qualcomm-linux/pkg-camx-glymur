@@ -10,3 +10,11 @@ custom-library-search-path RUNPATH /usr/lib/aarch64-linux-gnu/camx/glymur/hw [*]
 # dedicated camx/glymur/ subdirectory not in ld.so.conf, so debhelper bug.
 # See https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=204975
 package-has-unnecessary-activation-of-ldconfig-trigger
+
+# firmware files have foreign architecture and are not expected to be run
+# on the host system
+arch-dependent-file-in-usr-share [usr/share/hexagon-dsp/glymur/Qualcomm/Glymur-CRD/dsp/cdsp/*.so]
+binary-from-other-architecture [usr/share/hexagon-dsp/glymur/Qualcomm/Glymur-CRD/dsp/cdsp/*.so]
+shared-library-lacks-stack-section [usr/share/hexagon-dsp/glymur/Qualcomm/Glymur-CRD/dsp/cdsp/*.so]
+hardening-no-relro [usr/share/hexagon-dsp/glymur/Qualcomm/Glymur-CRD/dsp/cdsp/*.so]
+hardening-no-bindnow [usr/share/hexagon-dsp/glymur/Qualcomm/Glymur-CRD/dsp/cdsp/*.so]

@@ -17,3 +17,7 @@ maintainerclean:
 		libcamx-glymur-dev \
 		libcamx-glymur1 \
 		libcamx-glymur1-dbgsym
+
+override_dh_strip:
+	# Don't strip DSP skel files
+	dh_strip --exclude=libhme_dsp_skel.so --exclude=libbitml_nsp_73nb_skel.so
