@@ -9,7 +9,10 @@ camx-glymur (1.0.46-0qli1~) UNRELEASED; urgency=medium
   * Install Glymur hexagon-dsp/glymur/Qualcomm/Glymur-CRD/dsp/cdsp/*.so files
   * Install Glymur camx/networks/glymur/*.bin files
 
- -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 16 Sep 2026 11:13:41 +0200
+  [ Agathe Porte ]
+  * lintian: ignore foreign arch for firmware .so files
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 16 Sep 2026 11:29:41 +0200
 
 camx-glymur (1.0.39-0qli1) unstable; urgency=medium
 
