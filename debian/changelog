@@ -1,3 +1,9 @@
+camx-glymur (1.0.54-0qli1~) UNRELEASED; urgency=medium
+
+  * New upstream release (261012.1)
+
+ -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Mon, 19 Oct 2026 10:09:17 +0530
+
 camx-glymur (1.0.51-0qli1) unstable; urgency=medium
 
   * New upstream release
