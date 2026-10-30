@@ -1,3 +1,14 @@
+camx-glymur (1.0.57-0qli1) unstable; urgency=medium
+
+  [ Qualcomm Camera Team ]
+  * New upstream release (261029)
+  * d/control: add libopencv-dev and liburm-dev build-deps
+
+  [ Agathe Porte ]
+  * dh_shlibdeps: do not analyze DSP skel files
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Fri, 30 Oct 2026 16:07:23 +0000
+
 camx-glymur (1.0.54-0qli1~bpo13+1) trixie; urgency=medium
 
   [ Agathe Porte ]

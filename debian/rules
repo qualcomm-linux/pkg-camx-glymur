@@ -21,3 +21,7 @@ maintainerclean:
 override_dh_strip:
 	# Don't strip DSP skel files
 	dh_strip --exclude=libhme_dsp_skel.so --exclude=libbitml_nsp_73nb_skel.so
+
+override_dh_shlibdeps:
+	# Don't analyze DSP skel files
+	dh_shlibdeps --exclude=libhme_dsp_skel.so --exclude=libbitml_nsp_73nb_skel.so
