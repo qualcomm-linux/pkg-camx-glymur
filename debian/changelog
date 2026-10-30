@@ -1,6 +1,7 @@
 camx-glymur (1.0.57-0qli1~) UNRELEASED; urgency=medium
 
   * New upstream release (261029)
+  * d/control: add libopencv-dev and liburm-dev build-deps
 
  -- Qualcomm Camera Team <camx.deb.maintainers@qti.qualcomm.com>  Fri, 30 Oct 2026 17:35:48 +0530
 
