@@ -18,6 +18,9 @@ Vcs-Git: https://github.com/qualcomm-linux/pkg-camx-glymur.git
 
 Package: camx-glymur
 Architecture: arm64
+Provides:
+ camx-mahua (= ${binary:Version}),
+ camx-kalambo (= ${binary:Version}),
 Depends:
  hexagon-dsp-binaries-qualcomm-glymur-crd,
  qcom-fastcv-binaries,
