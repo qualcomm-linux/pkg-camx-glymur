@@ -5,6 +5,8 @@ spelling-error-in-binary *
 # a valid use described in the lintian tag message.
 custom-library-search-path RUNPATH /usr/lib/aarch64-linux-gnu/camx/glymur [*]
 custom-library-search-path RUNPATH /usr/lib/aarch64-linux-gnu/camx/glymur/hw [*]
+custom-library-search-path RUNPATH /usr/lib/aarch64-linux-gnu/camx/talos [*]
+custom-library-search-path RUNPATH /usr/lib/aarch64-linux-gnu/camx/talos/hw [*]
 
 # ldconfig trigger is activated even though libraries are shipped in a
 # dedicated camx/glymur/ subdirectory not in ld.so.conf, so debhelper bug.

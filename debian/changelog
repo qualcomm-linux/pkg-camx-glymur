@@ -1,3 +1,16 @@
+camx-glymur (1.0.62-0qli1) unstable; urgency=medium
+
+  [ Qualcomm Camera Team ]
+  * New upstream release (261115.1)
+
+  [ Chinmay Patil ]
+  * d/control: Provide camx-mahua and camx-kalambo on camx-glymur
+
+  [ Agathe Porte ]
+  * lintian: extend custom-library-search-path ignores
+
+ -- Agathe Porte <agathe.porte@oss.qualcomm.com>  Wed, 25 Nov 2026 16:46:23 +0100
+
 camx-glymur (1.0.59-0qli1~bpo13+1) trixie; urgency=medium
 
   [ Agathe Porte ]
